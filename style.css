@@ -19,6 +19,27 @@ body { }
 
 header { }
 
+#main { }
+
 #content { }
+
+#sidebar { }
+
+/* SIDEBAR */
+#main-sidebar { }
+
+/* SIDEBAR WIDGETS */
+#main-sidebar .sidebar-widget { }
+#main-sidebar .wp-widget { }
+
+/* SIDEBAR ADS */
+#main-sidebar .triad-sidebar-ad { }
+#main-sidebar .triad-sidebar-ad .content { }
+#main-sidebar .triad-sidebar-ad .title { }
+#main-sidebar .triad-sidebar-ad .copy { }
+#main-sidebar .triad-sidebar-ad .copy .text { }
+#main-sidebar .triad-sidebar-ad .link { }
+#main-sidebar .triad-sidebar-ad .link a { }
+
 
 footer { }

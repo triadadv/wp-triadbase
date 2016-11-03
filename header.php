@@ -14,5 +14,5 @@
                 
                 </div>
             </header>
-        	<div id="content">
-            	<div class="content">
+        	<div id="main">
+            	<section id="content">
