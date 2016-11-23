@@ -1,6 +1,6 @@
 <?php
 // The following enable theme support for post thumbnails and menus
-add_theme_support( 'post_thumbnails' );
+add_theme_support( 'post-thumbnails' );
 add_theme_support( 'menus' );
 
 // Load front-end styles
@@ -35,4 +35,14 @@ function triad_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'triad_widgets_init' );
+
+// Register menus
+function triad_register_menus() {
+	register_nav_menus(
+		array(
+			'main-menu' => __( 'Main Menu' )
+		)
+	);
+}
+add_action( 'init', 'triad_register_menus' );
 ?>

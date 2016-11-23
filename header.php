@@ -13,6 +13,17 @@
             	<div class="content">
                 
                 </div>
+				<?php
+				/*
+				Menu follows pattern:
+				<nav><ul class="navigation"><li><a></a></li></ul></nav>
+				*/
+				wp_nav_menu( array(
+					'menu' => 'main-menu',
+					'menu_class' => 'navigation',
+					'container' => 'nav'
+				) );
+				?>
             </header>
         	<div id="main">
             	<section id="content">
